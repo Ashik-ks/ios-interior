@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOS Interiors</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="bg-white py-4">
+        <div class="px-4 sm:px-6 lg:px-8">
+            <div class="flex h-16 items-center justify-between">
+
+                <div class="flex items-center space-x-4">
+                    <div class="flex items-center text-2xl font-bold">
+                        <span><img src="./images/logo.png" alt="logo png" class="w-[30px] h-auto"></span>
+                        <span class="text-black ml-2">IOS INTERIORS</span>
+                    </div>
+                </div>
+
+
+                <div class="hidden sm:flex flex-1 items-center justify-center">
+                    <div class="flex space-x-9">
+                        <a href="./index.html" class="px-3 py-2 text-lg font-medium text-black">Home</a>
+                        <a href="./aboutUs.html" class="px-3 py-2 text-lg font-medium text-black">About</a>
+                        <a href="#" class="px-3 py-2 text-lg font-medium text-black">Projects</a>
+                        <a href="#" class="px-3 py-2 text-lg font-medium text-black">Services</a>
+                        <a href="#" class="px-3 py-2 text-lg font-medium text-black">Contact</a>
+                    </div>
+                </div>
+
+                <div class="hidden sm:flex items-center">
+                    <button class="bg-orange-100 text-gray-600 font-medium py-4 px-6 rounded-lg">
+                        Get Started
+                    </button>
+                </div>
+
+                <input type="checkbox" id="menu-toggle" class="peer hidden">
+                <label for="menu-toggle" class="sm:hidden text-black text-3xl cursor-pointer">
+                    ☰
+                </label>
+
+                <div
+                    class="fixed inset-0 bg-black bg-opacity-50 z-50 transform translate-x-full peer-checked:translate-x-0 transition-transform sm:hidden">
+                    <div class="w-64 bg-white h-full p-5 shadow-lg">
+                        <label for="menu-toggle" class="text-black text-3xl cursor-pointer block mb-4">
+                            ✖
+                        </label>
+                        <nav class="space-y-4">
+                            <a href="./index.html" class="block px-3 py-2 text-lg font-medium text-black">Home</a>
+                            <a href="/aboutUs.html" class="block px-3 py-2 text-lg font-medium text-black">About</a>
+                            <a href="#" class="block px-3 py-2 text-lg font-medium text-black">Projects</a>
+                            <a href="#" class="block px-3 py-2 text-lg font-medium text-black">Services</a>
+                            <a href="#" class="block px-3 py-2 text-lg font-medium text-black">Contact</a>
+                            <button class="w-full bg-orange-100 text-gray-600 font-medium py-2 px-6 rounded-lg mt-4">
+                                Get Started
+                            </button>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <div class="w-full h-[45vh] bg-no-repeat bg-cover bg-center relative flex flex-col justify-center items-center text-white text-center pb-10"
+        style="background-image: url('./images/AboutUsBanner.png');">
+        <div class="mt-[6rem]">
+            <div><img src="./images/Aboutlogo.png" alt="logo png" class="w-[60px]"></div>
+        </div>
+        <div class="text-4xl font-bold mt-2 text-black">ABOUT US</div>
+        <div><span class="text-lg text-black mt-1 font-bold">Home ></span> <span class="text-lg text-black mt-1">
+                About</span></div>
+    </div>
+
+    <div class="text-center mt-5 px-4 sm:px-[27rem]">
+        <p class="text-gray-500 text-sm uppercase tracking-widest mb-2 font-semibold">What we do?</p>
+        <h1 class="text-3xl sm:text-4xl font-medium text-gray-800">The service we offer is specifically designed to meet your needs.</h1>
+    </div>
+    
+    <div class="py-8 px-4 sm:px-20 mb-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="text-center w-full sm:w-[400px] mx-auto">
+                <img alt="A modern lamp with a blue shade and wooden tripod legs" class="mx-auto mb-4" height="250" src="./images/aboutpage-grid1.png" width="300" />
+                <h2 class="text-xl font-semibold mb-2">Eidea of</h2>
+                <p class="text-gray-600 mb-4">
+                    Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus tellus.
+                </p>
+                <a class="text-gray-600 font-medium" href="#">
+                    Learn More
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="text-center w-full sm:w-[400px] mx-auto">
+                <img alt="A potted plant with large green leaves" class="mx-auto mb-4" height="300" src="./images/aboutpage-grid2.png" width="300" />
+                <h2 class="text-xl font-semibold mb-2">Felis eget</h2>
+                <p class="text-gray-600 mb-4">
+                    Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere consectetur.
+                </p>
+                <a class="text-gray-600 font-medium" href="#">
+                    Learn More
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="text-center w-full sm:w-[400px] mx-auto">
+                <img alt="A modern wooden pendant light" class="mx-auto mb-4" height="300" src="./images/aboutpage-grid3.png" width="300" />
+                <h2 class="text-xl font-semibold mb-2">In egestas</h2>
+                <p class="text-gray-600 mb-4">
+                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.
+                </p>
+                <a class="text-gray-600 font-medium" href="#">
+                    Learn More
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-8xl bg-slate-100 px-4 sm:px-8 lg:px-20 p-4 flex flex-col md:flex-row mt-10 md:mt-20 py-10 md:py-20">
+        <div class="w-full md:w-[60vw] flex justify-center">
+            <img alt="A modern bedroom with a black floor lamp, beige padded wall, and black triangular tables"
+                class="rounded-lg w-full md:w-[700px] md:h-[500px] object-cover"
+                src="./images/Solutions image.png" />
+        </div>
+    
+        <div class="w-full md:w-[40vw] md:mt-0 md:ml-8 px-4 sm:px-8">
+            <h3 class="text-gray-500 text-sm uppercase tracking-widest mt-6 md:mt-9">
+                Why Choose Us?
+            </h3>
+            <h1 class="text-3xl sm:text-4xl font-bold text-gray-800 mt-2 me-10">
+                We bring solutions to make life easier.
+            </h1>
+            <div class="mt-6">
+                <div class="mb-4">
+                    <h4 class="text-lg font-semibold text-gray-800 flex items-center">
+                        <i class="fas fa-chevron-up mr-2 text-gray-500"></i>
+                        Professional Design
+                    </h4>
+                    <p class="text-gray-600 mt-2">
+                        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                        justo sit amet risus.
+                    </p>
+                </div>
+                <div class="mb-4">
+                    <h4 class="text-lg font-semibold text-gray-800 flex items-center">
+                        <i class="fas fa-chevron-down mr-2 text-gray-500"></i>
+                        Top-Notch Support
+                    </h4>
+                </div>
+                <div class="mb-4">
+                    <h4 class="text-lg font-semibold text-gray-800 flex items-center">
+                        <i class="fas fa-chevron-down mr-2 text-gray-500"></i>
+                        Header and Slider Options
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container mx-auto px-4 sm:px-8 lg:px-20 py-8 md:py-16">
+        <div class="w-full flex flex-col md:flex-row gap-8">
+            <div class="w-full md:w-[30%] text-left mb-8 md:mb-0 p-4 sm:p-6">
+                <h2 class="text-sm text-yellow-600 font-bold">COMPANY FACTS</h2>
+                <h1 class="text-3xl sm:text-4xl font-bold text-gray-800">We are proud of our design team</h1>
+                <p class="text-gray-400 mt-2">Just sit back and relax while we take care of your business needs for
+                    you.</p>
+            </div>
+    
+            <div class="w-full md:w-[70%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4 sm:p-6">
+                <div class="text-center">
+                    <div class="bg-yellow-100 rounded-full w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-project-diagram text-yellow-600 text-2xl"></i>
+                    </div>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-gray-800">1000+</h2>
+                    <p class="text-gray-400">Completed Projects</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-yellow-100 rounded-full w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-users text-yellow-600 text-2xl"></i>
+                    </div>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-gray-800">50K+</h2>
+                    <p class="text-gray-400">Happy Customers</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-yellow-100 rounded-full w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-trophy text-yellow-600 text-2xl"></i>
+                    </div>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-gray-800">20+</h2>
+                    <p class="text-gray-400">Awards Won</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="w-full mx-auto px-20 mb-10">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img alt="Portrait of Coriss Ambady" class="w-24 h-24 rounded-full mx-auto" height="100"
+                        src="https://storage.googleapis.com/a1aa/image/__bBA6NcMFvPwj7SnceRhb78XBTVO0jscOwQDQNGADs.jpg"
+                        width="100" />
+                    <h2 class="mt-4 text-xl font-semibold text-gray-800">
+                        Coriss Ambady
+                    </h2>
+                    <p class="text-gray-500">
+                        FINANCIAL ANALYST
+                    </p>
+                    <p class="mt-2 text-gray-600 mx-5 text-start">
+                        Fermentum massa justo sit amet risus morbi leo.
+                    </p>
+                    <div class="mt-4 flex justify-center space-x-3">
+                        <a class="text-blue-500" href="#">
+                            <i class="fab fa-twitter text-blue-400">
+                            </i>
+                        </a>
+                        <a class="text-blue-700" href="#">
+                            <i class="fab fa-facebook text-blue-700">
+                            </i>
+                        </a>
+                        <a class="text-pink-500" href="#">
+                            <i class="fab fa-dribbble text-pink-500">
+                            </i>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img alt="Portrait of Cory Zamora" class="w-24 h-24 rounded-full mx-auto" height="100"
+                        src="https://storage.googleapis.com/a1aa/image/0QdrpH_KHg3xehqzglDXBJolKNYiD6XaHS9NnFXo9g0.jpg"
+                        width="100" />
+                    <h2 class="mt-4 text-xl font-semibold text-gray-800">
+                        Cory Zamora
+                    </h2>
+                    <p class="text-gray-500">
+                        MARKETING SPECIALIST
+                    </p>
+                    <p class="mt-2 text-gray-600 mx-5 text-start">
+                        Fermentum massa justo sit amet risus morbi leo.
+                    </p>
+                    <div class="mt-4 flex justify-center space-x-3">
+                        <a class="text-blue-500" href="#">
+                            <i class="fab fa-twitter text-blue-400">
+                            </i>
+                        </a>
+                        <a class="text-blue-700" href="#">
+                            <i class="fab fa-facebook text-blue-700">
+                            </i>
+                        </a>
+                        <a class="text-pink-500" href="#">
+                            <i class="fab fa-dribbble text-pink-500">
+                            </i>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img alt="Portrait of Nikolas Brooten" class="w-24 h-24 rounded-full mx-auto" height="100"
+                        src="https://storage.googleapis.com/a1aa/image/WKUWhzOi-tSutyluGCcpeq-yxBOyZi7qIrycnguQ9oQ.jpg"
+                        width="100" />
+                    <h2 class="mt-4 text-xl font-semibold text-gray-800">
+                        Nikolas Brooten
+                    </h2>
+                    <p class="text-gray-500">
+                        SALES MANAGER
+                    </p>
+                    <p class="mt-2 text-gray-600 mx-5 text-start">
+                        Fermentum massa justo sit amet risus morbi leo.
+                    </p>
+                    <div class="mt-4 flex justify-center space-x-3">
+                        <a class="text-blue-500" href="#">
+                            <i class="fab fa-twitter text-blue-400">
+                            </i>
+                        </a>
+                        <a class="text-blue-700" href="#">
+                            <i class="fab fa-facebook text-blue-700">
+                            </i>
+                        </a>
+                        <a class="text-pink-500" href="#">
+                            <i class="fab fa-dribbble text-pink-500">
+                            </i>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img alt="Portrait of Jackie Sanders" class="w-24 h-24 rounded-full mx-auto" height="100"
+                        src="https://storage.googleapis.com/a1aa/image/0cmLxOwNBwNBWFhYMSk-OKOLL2IbQqzNr7qCkxfQH7k.jpg"
+                        width="100" />
+                    <h2 class="mt-4 text-xl font-semibold text-gray-800">
+                        Jackie Sanders
+                    </h2>
+                    <p class="text-gray-500">
+                        INVESTMENT PLANNER
+                    </p>
+                    <p class="mt-2 text-gray-600 mx-5 text-start">
+                        Fermentum massa justo sit amet risus morbi leo.
+                    </p>
+                    <div class="mt-4 flex justify-center space-x-3">
+                        <a class="text-blue-500" href="#">
+                            <i class="fab fa-twitter text-blue-400">
+                            </i>
+                        </a>
+                        <a class="text-blue-700" href="#">
+                            <i class="fab fa-facebook text-blue-700">
+                            </i>
+                        </a>
+                        <a class="text-pink-500" href="#">
+                            <i class="fab fa-dribbble text-pink-500">
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mb-8 mt-20">
+            <p class="text-gray-500 text-lg">
+                Trusted by over 2K+ clients across the world
+            </p>
+        </div>
+
+        <div class="flex flex-wrap justify-center items-center space-x-4 sm:space-x-8 gap-4 sm:gap-14 mt-5 mb-5">
+            <img alt="Logo of SLOWA" class="h-8 sm:h-12" height="60" src="./images/about-logo1.png" width="100" />
+            <img alt="Logo of Deepsal" class="h-8 sm:h-12" height="60" src="./images/about-logo2.png" width="100" />
+            <img alt="Logo of kybo" class="h-8 sm:h-12" height="60" src="./images/about-logo3.png" width="100" />
+            <img alt="Logo of brailie" class="h-8 sm:h-12" height="60" src="./images/about-logo4.png" width="100" />
+            <img alt="Logo of lalor" class="h-8 sm:h-12" height="60" src="./images/about-logo5.png" width="100" />
+            <img alt="Logo of reatin" class="h-8 sm:h-12" height="60" src="./images/about-logo6.png" width="100" />
+            <img alt="Logo of ebpai" class="h-8 sm:h-12" height="60" src="./images/about-logo7.png" width="100" />
+        </div>
+
+        <div class="flex items-center justify-center py-[4rem] h[70]">
+            <div class="bg-gradient-to-r from-pink-100 to-pink-200 rounded-lg p-10 py-[4rem] text-center w-full max-w-4xl mx-auto">
+                <p class="text-md text-gray-600 mb-2">JOIN OUR COMMUNITY</p>
+                <h1 class="text-3xl font-bold text-gray-800 mb-4">We are trusted by over 5000+ clients.<br>Join them now and grow your business.</h1>
+                <div class="mt-6">
+                    <button class="bg-[#ffe6d0] text-transparent rounded-lg py-2 px-4">GEt Started</button>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="py-10 px-4 md:px-20 mt-5 bg-white">
+            <div class="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="col-span-2 sm:col-span-1">
+                    <div class="flex items-center mb-4">
+                        <span><img src="./images/logo.png" alt="logo png" class="w-[40px]"></span>
+                        <span class="text-2xl font-bold ms-2">IOS INTERIORS</span>
+                    </div>
+                    <p class="text-sm">
+                        © 2023 Sandbox.
+                        <br/>
+                        All rights reserved.
+                    </p>
+                </div>
+        
+                <div>
+                    <h3 class="text-lg font-bold mb-2">Get in Touch</h3>
+                    <p>
+                        Moonshine St. 14/05
+                        <br/>
+                        Light City, London,
+                        <br/>
+                        United Kingdom
+                    </p>
+                    <p class="mt-2">
+                        info@email.com
+                        <br/>
+                        00 (123) 456 78 90
+                    </p>
+                </div>
+        
+                <div>
+                    <h3 class="text-lg font-bold mb-2">Learn More</h3>
+                    <ul>
+                        <li class="mb-1">
+                            <a class="hover:underline" href="./aboutUs.html">About Us</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="hover:underline" href="#">Our Story</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="hover:underline" href="#">Projects</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="hover:underline" href="#">Terms of Use</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="hover:underline" href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class="col-span-2 sm:col-span-1">
+                    <h3 class="text-lg font-bold mb-2">Our Newsletter</h3>
+                    <p class="mb-4">
+                        Subscribe to our newsletter to get our news &amp; deals delivered to you.
+                    </p>
+                    <form class="flex">
+                        <input class="p-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-orange-500 flex-grow" placeholder="Email Address" type="email"/>
+                        <button class="bg-orange-300 text-white px-4 py-2 rounded-r-md" type="submit">Join</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+
+</body>
+
+</html>
